@@ -4,9 +4,11 @@
     "web": {
       "bundler": "metro"
     },
-    "plugins": [
-      "expo-router"
-    ],
+    "splash": {
+      "image": "./assets/splash.png",
+      "backgroundColor": "#e1effa"
+    },
+    "plugins": ["expo-router"],
     "name": "React-native-jobs",
     "slug": "React-native-jobs"
   }
